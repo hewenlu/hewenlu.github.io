@@ -1,8 +1,8 @@
 # Site settings 配置站点
-title: 'your awesome title'
+title: '何文禄的个人博客'
 description: 'your web description'
-keywords: 'your web keywords, another keywords'
-url: 'https://abc.github.io' # your host
+keywords: 'php javascript html css'
+url: 'https://hewenlu.github.io' # your host
 
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
@@ -10,27 +10,28 @@ nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
   标签: '/tags.html'
   时间线: '/timeline.html'
   关于博主: '/about.html'
+  个人简历: 'http://hewenlu.top'
   友情链接: '/friendLink.html'
 
 # 博主
 author: true
-name: 'your awesome name'
-NickName: 'your awesome nickname'
-webtitle: 'your awesome webtitle'
-bio: 'your awesome bio'
+name: '何文禄'
+NickName: 'wendu'
+webtitle: 'Temperature'
+bio: '一个向全栈出发的小学生'
 about: true
-aboutyou: 'your introduction'
-portraits: '/assets/profile.jpeg' # your portraits image file path
+aboutyou: '网名温度，生于1999.05.12，目前在北京朝阳区生活工作。'
+portraits: '/assets/profile.jpg' # your portraits image file path
 
 # SNS
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
   mail: 'mailto:abc@gmail.com'
-  weixin: '' # 你的微信二维码存放的地址
-  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
-  github: ''
+  weixin: 'http://47.95.121.201/uploads/wx.jpg' # 你的微信二维码存放的地址
+  qq: 'http://47.95.121.201/uploads/qq.jpg' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
+  github: 'https://hewenlu.github.io'
   Codepen: ''
-  weibo: ''
+  weibo: '252小何'
   instagram: ''
   Twitter: ''
   Dribbble: ''
@@ -41,7 +42,7 @@ SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagr
   twitch: ''
 
 # 分页
-paginate: 2
+paginate: 4
 paginatepath: ['page:num']
 
 # since
@@ -55,7 +56,7 @@ kramdown:
 # 代码高亮 使用rouge
 highlighter: rouge
 # 代码高亮主题使用pygments主题: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango 任选一个你喜欢的主题名称填在下面的单引号中
-pygmentsTheme: 'default'
+pygmentsTheme: 'manni'
 
 # 友情链接
 friends:
