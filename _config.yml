@@ -21,7 +21,7 @@ webtitle: 'Temperature'
 bio: '一个向全栈出发的小学生'
 about: true
 aboutyou: '网名温度，生于1999.05.12，目前在北京朝阳区生活工作。'
-portraits: '/assets/profile.jpg' # your portraits image file path
+portraits: 'http://47.95.121.201/uploads/hwl.jpg' # your portraits image file path
 
 # SNS
 SNS: true
