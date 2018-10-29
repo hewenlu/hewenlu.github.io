@@ -1,7 +1,11 @@
-﻿# 地铁趣事
-
-标签（空格分隔）：心情
-
+﻿---
+layout: post
+title: '地铁趣事'
+date: 2018-10-27
+author: Jekyll
+color: rgb(255,210,32)
+cover: 'http://47.95.121.201/uploads/jekyll/wener9.jpg'
+tags: mood
 ---
 
 事情是昨天的，请允许我为了凑点字数，从头开始讲，好，开始。
