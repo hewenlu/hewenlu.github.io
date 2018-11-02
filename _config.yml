@@ -29,7 +29,7 @@ SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagr
   mail: 'mailto:abc@gmail.com'
   weixin: 'http://47.95.121.201/uploads/wx.jpg' # 你的微信二维码存放的地址
   qq: 'http://47.95.121.201/uploads/qq.jpg' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
-  github: 'https://hewenlu.github.io/hewenlu'
+  github: 'https://github.com/hewenlu'
   Codepen: ''
   weibo: '252小何'
   instagram: ''
