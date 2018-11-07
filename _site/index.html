@@ -22,10 +22,18 @@
 <!-- <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Pacifico|Ubuntu|Roboto+Mono|Source+Sans+Pro" rel="stylesheet"> -->
 
 <!-- Favicon -->
-<link href="/assets/profile.jpeg" rel="shortcut icon" />
-<link href="/assets/profile.jpeg" rel="apple-touch-icon-precomposed" />
+<link href="/assets/favicon.ico" rel="shortcut icon" />
+<link href="/assets/favicon.ico" rel="apple-touch-icon-precomposed" />
 <!-- Android Lolipop Theme Color -->
 <!-- <meta name="theme-color" content="#1464FB"> -->
+
+<!--字体图标样式-->
+<link rel='stylesheet' href='/assets/css/music/solid.css'>
+<link rel='stylesheet' href='/assets/css/music/fontawesome.css'>
+
+<!--布局样式-->
+<link rel="stylesheet" href="/assets/css/music/style.css">
+
 <title>何文禄的个人博客</title>
 <!-- 百度统计 -->
 
@@ -48,7 +56,7 @@ var _hmt = _hmt || [];
 <header id="index-header">
   <div class="top-center">
       <div class="logo">
-          <a href="/" title="my awesome webtitle">Temperature</a>
+          <a href="/" title="温度">Temperature</a>
       </div>
       <nav class="top-nav">
           <ul>
@@ -74,6 +82,50 @@ var _hmt = _hmt || [];
   </div>
 
 </header>
+<div id="app-cover">
+    <div id="bg-artwork"></div>
+    <!--<div id="bg-layer"></div>-->
+    <div id="player">
+        <div id="player-track">
+            <div id="album-name"></div>
+            <div id="track-name"></div>
+            <div id="track-time">
+                <div id="current-time"></div>
+                <div id="track-length"></div>
+            </div>
+            <div id="s-area">
+                <div id="ins-time"></div>
+                <div id="s-hover"></div>
+                <div id="seek-bar"></div>
+            </div>
+        </div>
+        <div id="player-content">
+            <div id="album-art">
+                <img src="http://47.95.121.201/uploads/fuqin.jpg" class="active" id="_1">
+                <img src="http://47.95.121.201/uploads/jinan.jpg" id="_2">
+                <img src="http://47.95.121.201/uploads/yujian.jpg" id="_3">
+                <!--<div id="buffer-box">缓冲…</div>-->
+            </div>
+            <div id="player-controls">
+                <div class="control">
+                    <div class="button" id="play-previous">
+                        <i class="fas fa-backward"></i>
+                    </div>
+                </div>
+                <div class="control">
+                    <div class="button" id="play-pause-button">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="control">
+                    <div class="button" id="play-next">
+                        <i class="fas fa-forward"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div id="boot-area">
     <ul>
@@ -102,6 +154,31 @@ var _hmt = _hmt || [];
 
     <ul class="post-list">
       
+  <a href="/2018/10/27/mood-2924.html">
+      <li class="fadeInUp animated">
+          
+          <div class="post-cover" style="background:url(http://47.95.121.201/uploads/jekyll/wener2.jpg);background-size:cover;background-position:center;"></div>
+          
+          <section class="post-preview">
+              <h2 class="post-title">2924</h2>
+              
+              
+              <p class="post-excerpt">2924回看</p>
+              
+          </section>
+          <footer class="post-tags">
+                
+                    
+                    <a href=tags.html#mood class="post-tag">mood</a>
+                    
+                    <a href=tags.html#2924 class="post-tag">2924</a>
+                    
+                
+                <time class="post-date" datetime="18-10-27">27 Oct 2018</time>
+          </footer>
+      </li>
+  </a>
+
   <a href="/2018/10/27/hewenlu-mood.html">
       <li class="fadeInUp animated">
           
@@ -199,6 +276,7 @@ var _hmt = _hmt || [];
         document.body.scrollTop = 0;  //非ie
     }
 </script>
-
+<script src='/assets/js/jquery.min.js'></script>
+<script  src="/assets/js/index.js"></script>
 </body>
 </html>

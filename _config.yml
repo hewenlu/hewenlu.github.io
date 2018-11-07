@@ -50,7 +50,7 @@ footer:
   since: 2018
 
 # Markdown
-markdown: markdown
+markdown: kramdown
 kramdown:
   input: GFM
 # 代码高亮 使用rouge

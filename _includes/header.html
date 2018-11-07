@@ -1,7 +1,7 @@
 <header id="index-header">
   <div class="top-center">
       <div class="logo">
-          <a href="{{ "/" | relative_url }}" title="my awesome webtitle">{{ site.webtitle }}</a>
+          <a href="{{ "/" | relative_url }}" title="温度">{{ site.webtitle }}</a>
       </div>
       <nav class="top-nav">
           <ul>
@@ -17,3 +17,47 @@
   </div>
 
 </header>
+<div id="app-cover">
+    <div id="bg-artwork"></div>
+    <!--<div id="bg-layer"></div>-->
+    <div id="player">
+        <div id="player-track">
+            <div id="album-name"></div>
+            <div id="track-name"></div>
+            <div id="track-time">
+                <div id="current-time"></div>
+                <div id="track-length"></div>
+            </div>
+            <div id="s-area">
+                <div id="ins-time"></div>
+                <div id="s-hover"></div>
+                <div id="seek-bar"></div>
+            </div>
+        </div>
+        <div id="player-content">
+            <div id="album-art">
+                <img src="http://47.95.121.201/uploads/fuqin.jpg" class="active" id="_1">
+                <img src="http://47.95.121.201/uploads/jinan.jpg" id="_2">
+                <img src="http://47.95.121.201/uploads/yujian.jpg" id="_3">
+                <!--<div id="buffer-box">缓冲…</div>-->
+            </div>
+            <div id="player-controls">
+                <div class="control">
+                    <div class="button" id="play-previous">
+                        <i class="fas fa-backward"></i>
+                    </div>
+                </div>
+                <div class="control">
+                    <div class="button" id="play-pause-button">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="control">
+                    <div class="button" id="play-next">
+                        <i class="fas fa-forward"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
