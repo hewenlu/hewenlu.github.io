@@ -3,8 +3,8 @@ layout: post
 title: '博客搭建心得' 
 date: 2018-11-9 
 author: Wendu 
-color: '#eaf4fc'
-cover: 'http://47.95.121.201/uploads/jekyll/wener1.jpg'
+color: '#a69abd'
+cover: '/assets/posts/git.png'
 tags: git github jekyll markdown
 ---
 
@@ -37,7 +37,7 @@ ruby -v
 ```
 得到版本号表示安装成功
 
---------
+
 
 ### 2.安装RubyGems
 
@@ -48,7 +48,7 @@ ruby -v
 ruby setup.rb
 ```
 
-------
+
 
 ### 3.用RubyGems安装Jekyll
 还是用cmd执行安装

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-09T14:46:30+08:00</updated><id>http://localhost:4000/</id><title type="html">何文禄的个人博客</title><subtitle>何文禄的个人博客</subtitle><author><name>true</name></author><entry><title type="html">博客搭建心得</title><link href="http://localhost:4000/2018/11/09/github-jekyll.html" rel="alternate" type="text/html" title="博客搭建心得" /><published>2018-11-09T00:00:00+08:00</published><updated>2018-11-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/11/09/github-jekyll</id><content type="html" xml:base="http://localhost:4000/2018/11/09/github-jekyll.html">&lt;h1 id=&quot;通过安装jekyll在github部署自己的博客&quot;&gt;通过安装jekyll在github部署自己的博客&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-09T15:14:49+08:00</updated><id>http://localhost:4000/</id><title type="html">何文禄的个人博客</title><subtitle>何文禄的个人博客</subtitle><author><name>true</name></author><entry><title type="html">博客搭建心得</title><link href="http://localhost:4000/2018/11/09/github-jekyll.html" rel="alternate" type="text/html" title="博客搭建心得" /><published>2018-11-09T00:00:00+08:00</published><updated>2018-11-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/11/09/github-jekyll</id><content type="html" xml:base="http://localhost:4000/2018/11/09/github-jekyll.html">&lt;h1 id=&quot;通过安装jekyll在github部署自己的博客&quot;&gt;通过安装jekyll在github部署自己的博客&lt;/h1&gt;
 
 &lt;p&gt;首先到我的&lt;a href=&quot;https://github.com/hewenlu/hewenlu.github.io&quot;&gt;github&lt;/a&gt;下查看教程，fork到你的仓库，找到settings更改名称为你的github用户名.github.io&lt;/p&gt;
 &lt;blockquote&gt;
@@ -29,8 +29,6 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;得到版本号表示安装成功&lt;/p&gt;
 
-&lt;hr /&gt;
-
 &lt;h3 id=&quot;2安装rubygems&quot;&gt;2.安装RubyGems&lt;/h3&gt;
 
 &lt;p&gt;官网下载 https://rubygems.org/pages/download  最新版本的zip文件
@@ -38,8 +36,6 @@
 执行安装&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby setup.rb
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
 
 &lt;h3 id=&quot;3用rubygems安装jekyll&quot;&gt;3.用RubyGems安装Jekyll&lt;/h3&gt;
 &lt;p&gt;还是用cmd执行安装&lt;/p&gt;
