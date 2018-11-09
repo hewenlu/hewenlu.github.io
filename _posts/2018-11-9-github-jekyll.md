@@ -1,10 +1,12 @@
-﻿layout: post 
+﻿---
+layout: post 
 title: '博客搭建心得' 
 date: 2018-11-9 
 author: Wendu 
 color: '#eaf4fc'
 cover: 'http://47.95.121.201/uploads/jekyll/wener1.jpg'
 tags: git github jekyll markdown
+---
 
 # 通过安装jekyll在github部署自己的博客
 
