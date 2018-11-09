@@ -2,7 +2,7 @@
 layout: post 
 title: '博客搭建心得' 
 date: 2018-11-9 
-author: Wendu 
+author: temperature 
 color: '#a69abd'
 cover: '/assets/posts/git.png'
 tags: git github jekyll markdown

@@ -115,7 +115,7 @@ var _hmt = _hmt || [];
     <span class="wow fadeInUp" data-wow-delay="0.2s">地铁趣事</span>
     <span class="wow fadeInUp" data-wow-delay="0.4s"></span>
     <span class="wow fadeInUp" data-wow-delay="0.4s"></span>
-    <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;Jekyll</span>
+    <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;temperature</span>
 </div> -->
 
 <!-- 版本二 可切换页面 -->
@@ -132,11 +132,11 @@ var _hmt = _hmt || [];
     <span class="wow fadeInUp" data-wow-delay="0.2s">地铁趣事</span>
     <!-- <span class="wow fadeInUp" data-wow-delay="0.4s"></span> -->
     <!-- <span class="wow fadeInUp" data-wow-delay="0.4s"></span> -->
-    <!-- <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;Jekyll</span> -->
+    <!-- <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;temperature</span> -->
   </div>
   <div class="right-area">
     
-      <a href="/2018/10/27/hello-jekyll.html" class="btn bounceInRight self-animated" onmouseover="showRight();this.style.color='#80aba9';" onmouseout="goneRight();this.style.color='rgba(0,0,0,.2)';">></a>
+      <a href="/2018/10/26/hello-jekyll.html" class="btn bounceInRight self-animated" onmouseover="showRight();this.style.color='#80aba9';" onmouseout="goneRight();this.style.color='rgba(0,0,0,.2)';">></a>
       <div id="right-tab" style="display:none;"><span class="right-san"></span><span class="right-main" style="color:#80aba9;"><sapn class="main">Hello Jekyll</sapn></span></div>
     
   </div>
@@ -147,7 +147,7 @@ var _hmt = _hmt || [];
       <a href="/2018/10/27/mood-2924.html" class="leftchange" style="border-right: 1px solid #80aba9;border-bottom: 2px solid #80aba9;"><span>上一篇<br><br>2924</span></a>
     
     
-      <a href="/2018/10/27/hello-jekyll.html" class="rightchange" style="border-left: 1px solid #80aba9;border-bottom: 2px solid #80aba9;"><span>下一篇<br><br>Hello Jekyll</span></a>
+      <a href="/2018/10/26/hello-jekyll.html" class="rightchange" style="border-left: 1px solid #80aba9;border-bottom: 2px solid #80aba9;"><span>下一篇<br><br>Hello Jekyll</span></a>
     
   </div>
 </div>
@@ -281,5 +281,55 @@ var _hmt = _hmt || [];
     }
 </script>
 <script src="/assets/js/main.js"></script>
+<script src='/assets/js/jquery.min.js'></script>
+<script type="text/javascript">
+    !function(e, t, a) {
+        function r() {
+            for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[e].y--, s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x + "px;top:" + s[e].y + "px;opacity:" + s[e].alpha + ";transform:scale(" + s[e].scale + "," + s[e].scale + ") rotate(45deg);background:" + s[e].color + ";z-index:99999");
+            requestAnimationFrame(r)
+        }
+        function n() {
+            var t = "function" == typeof e.onclick && e.onclick;
+            e.onclick = function(e) {
+                t && t(),
+                    o(e)
+            }
+        }
+        function o(e) {
+            var a = t.createElement("div");
+            a.className = "heart",
+                s.push({
+                    el: a,
+                    x: e.clientX - 5,
+                    y: e.clientY - 5,
+                    scale: 1,
+                    alpha: 1,
+                    color: c()
+                }),
+                t.body.appendChild(a)
+        }
+        function i(e) {
+            var a = t.createElement("style");
+            a.type = "text/css";
+            try {
+                a.appendChild(t.createTextNode(e))
+            } catch(t) {
+                a.styleSheet.cssText = e
+            }
+            t.getElementsByTagName("head")[0].appendChild(a)
+        }
+        function c() {
+            return "rgb(" + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + ")"
+        }
+        var s = [];
+        e.requestAnimationFrame = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame ||
+            function(e) {
+                setTimeout(e, 1e3 / 60)
+            },
+            i(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"),
+            n(),
+            r()
+    } (window, document);
+</script>
 </body>
 </html>

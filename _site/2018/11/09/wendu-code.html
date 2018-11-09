@@ -1,0 +1,382 @@
+<!-- 博文的布局-Layout -->
+<!DOCTYPE html>
+<html>
+<head>
+<!-- 引入head标签 -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-sclable=0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="何文禄的个人博客" />
+<meta name="keywords" content="php javascript html css" />
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/media.css">
+<link rel="stylesheet" href="/assets/css/animate.min.css">
+<link rel="stylesheet" href="/assets/css/pygments/pygments_manni.css">
+<link rel="stylesheet" href="/assets/css/github-markdown.css">
+<!-- SNS-icon -->
+<script src="//at.alicdn.com/t/font_856428_y9z6nq7zf5.js"></script>
+<!-- share.css -->
+<link rel="stylesheet" href="/assets/css/share.min.css">
+<!-- font -->
+<link rel="stylesheet" href="/assets/css/font.css">
+<!-- <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Pacifico|Ubuntu|Roboto+Mono|Source+Sans+Pro" rel="stylesheet"> -->
+
+<!-- Favicon -->
+<link href="/assets/favicon.ico" rel="shortcut icon" />
+<link href="/assets/favicon.ico" rel="apple-touch-icon-precomposed" />
+<!-- Android Lolipop Theme Color -->
+<!-- <meta name="theme-color" content="#1464FB"> -->
+
+<!--字体图标样式-->
+<link rel='stylesheet' href='/assets/css/music/solid.css'>
+<link rel='stylesheet' href='/assets/css/music/fontawesome.css'>
+
+<!--布局样式-->
+<link rel="stylesheet" href="/assets/css/music/style.css">
+
+<title>鼠标点击爱心</title>
+<!-- 百度统计 -->
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- 谷歌分析 -->
+
+
+<!-- Android Lolipop Theme Color -->
+<meta name="theme-color" content=" #c85179 ">
+</head>
+<body>
+
+<!-- 顶部锚点 -->
+<a id="htmlup" name="htmlup"></a>
+<!-- 引入博文顶部选项 -->
+
+<header id="post-header" style="background-color:#c85179;">
+  <div class="top-center">
+      <div class="logo">
+          <a href="/" title="my awesome webtitle" style="color: white;">Temperature</a>
+      </div>
+      <nav class="top-nav">
+          <ul>
+              
+                <li><a href="/" style="color: white;">首页</a></li>
+              
+                <li><a href="/tags.html" style="color: white;">标签</a></li>
+              
+                <li><a href="/timeline.html" style="color: white;">时间线</a></li>
+              
+                <li><a href="/about.html" style="color: white;">关于博主</a></li>
+              
+                <li><a href="http://hewenlu.top" style="color: white;">个人简历</a></li>
+              
+                <li><a href="/friendLink.html" style="color: white;">友情链接</a></li>
+              
+          </ul>
+      </nav>
+      <div id="top-boot">
+        <a href="javascript:;" id="boot1" style="display:block;" onclick="document.getElementById('boot-area').style.display='block';document.getElementById('boot1').style.display='none';document.getElementById('boot2').style.display='block';"><img src="/assets/boot_white.png" alt=""></a>
+        <a href="javascript:;" id="boot2" style="display: none;" onclick="document.getElementById('boot-area').style.display='none';document.getElementById('boot1').style.display='block';document.getElementById('boot2').style.display='none';"><img src="/assets/boot_white.png" alt=""></a>
+      </div>
+  </div>
+
+</header>
+
+
+<!-- 引入移动下拉选项 -->
+<div id="boot-area">
+    <ul>
+        
+          <a href="/"><li>首页</li></a>
+        
+          <a href="/tags.html"><li>标签</li></a>
+        
+          <a href="/timeline.html"><li>时间线</li></a>
+        
+          <a href="/about.html"><li>关于博主</li></a>
+        
+          <a href="http://hewenlu.top"><li>个人简历</li></a>
+        
+          <a href="/friendLink.html"><li>友情链接</li></a>
+        
+    </ul>
+</div>
+
+<!-- 引入博文顶部样式 -->
+<!-- 版本一 垃圾 -->
+<!-- <div class="wow fadeIn top" data-wow-duration="3.5s" >
+    <span class="wow fadeInUp" data-wow-delay="0.2s">鼠标点击爱心</span>
+    <span class="wow fadeInUp" data-wow-delay="0.4s"></span>
+    <span class="wow fadeInUp" data-wow-delay="0.4s"></span>
+    <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;temperature</span>
+</div> -->
+
+<!-- 版本二 可切换页面 -->
+
+<div class="post-top" style="background-color:#c85179;">
+  <!-- 页面宽度大于800px -->
+  <div class="left-area">
+    
+      <a href="javascript:;" class="btn bounceInLeft animated" onmouseover="showLeft();this.style.color='#c85179';" onmouseout="goneLeft();this.style.color='rgba(0,0,0,.2)';"><</a>
+      <div id="left-tab" style="display:none;"><span class="left-san"></span><span class="left-main" style="color:#c85179;"><sapn class="main">没有上一页咯</sapn></span></div>
+    
+  </div>
+  <div class="post-titlearea">
+    <span class="wow fadeInUp" data-wow-delay="0.2s">鼠标点击爱心</span>
+    <!-- <span class="wow fadeInUp" data-wow-delay="0.4s"></span> -->
+    <!-- <span class="wow fadeInUp" data-wow-delay="0.4s"></span> -->
+    <!-- <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;temperature</span> -->
+  </div>
+  <div class="right-area">
+    
+      <a href="/2018/11/09/github-jekyll.html" class="btn bounceInRight self-animated" onmouseover="showRight();this.style.color='#c85179';" onmouseout="goneRight();this.style.color='rgba(0,0,0,.2)';">></a>
+      <div id="right-tab" style="display:none;"><span class="right-san"></span><span class="right-main" style="color:#c85179;"><sapn class="main">博客搭建心得</sapn></span></div>
+    
+  </div>
+
+  <!-- 页面宽度小于800px -->
+  <div class="post-changearea">
+    
+      <a href="javascript:;" class="leftchange" style="border-right: 1px solid #c85179;border-bottom: 2px solid #c85179;"><span><br>没有上一篇咯</span></a>
+    
+    
+      <a href="/2018/11/09/github-jekyll.html" class="rightchange" style="border-left: 1px solid #c85179;border-bottom: 2px solid #c85179;"><span>下一篇<br><br>博客搭建心得</span></a>
+    
+  </div>
+</div>
+
+
+<div class="markdown-body fadeInUp animated">
+
+  
+
+  <!-- 文章内容 -->
+  <h3 id="只需要引入jq库在body加入以下代码爱心效果就出现了">只需要引入jq库，在&lt;/body&gt;加入以下代码,爱心效果就出现了！</h3>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">!</span><span class="kd">function</span><span class="p">(</span><span class="nx">e</span><span class="p">,</span> <span class="nx">t</span><span class="p">,</span> <span class="nx">a</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kd">function</span> <span class="nx">r</span><span class="p">()</span> <span class="p">{</span>
+            <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">e</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">e</span> <span class="o">&lt;</span> <span class="nx">s</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">e</span><span class="o">++</span><span class="p">)</span> <span class="nx">s</span><span class="p">[</span><span class="nx">e</span><span class="p">].</span><span class="nx">alpha</span> <span class="o">&lt;=</span> <span class="mi">0</span> <span class="p">?</span> <span class="p">(</span><span class="nx">t</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">removeChild</span><span class="p">(</span><span class="nx">s</span><span class="p">[</span><span class="nx">e</span><span class="p">].</span><span class="nx">el</span><span class="p">),</span> <span class="nx">s</span><span class="p">.</span><span class="nx">splice</span><span class="p">(</span><span class="nx">e</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span> <span class="p">:</span> <span class="p">(</span><span class="nx">s</span><span class="p">[</span><span class="nx">e</span><span class="p">].</span><span class="nx">y</span><span class="o">--</span><span class="p">,</span> <span class="nx">s</span><span class="p">[</span><span class="nx">e</span><span class="p">].</span><span class="nx">scale</span> <span class="o">+=</span> <span class="p">.</span><span class="mi">004</span><span class="p">,</span> <span class="nx">s</span><span class="p">[</span><span class="nx">e</span><span class="p">].</span><span class="nx">alpha</span> <span class="o">-=</span> <span class="p">.</span><span class="mi">013</span><span class="p">,</span> <span class="nx">s</span><span class="p">[</span><span class="nx">e</span><span class="p">].</span><span class="nx">el</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">cssText</span> <span class="o">=</span> <span class="s2">"left:"</span> <span class="o">+</span> <span class="nx">s</span><span class="p">[</span><span class="nx">e</span><span class="p">].</span><span class="nx">x</span> <span class="o">+</span> <span class="s2">"px;top:"</span> <span class="o">+</span> <span class="nx">s</span><span class="p">[</span><span class="nx">e</span><span class="p">].</span><span class="nx">y</span> <span class="o">+</span> <span class="s2">"px;opacity:"</span> <span class="o">+</span> <span class="nx">s</span><span class="p">[</span><span class="nx">e</span><span class="p">].</span><span class="nx">alpha</span> <span class="o">+</span> <span class="s2">";transform:scale("</span> <span class="o">+</span> <span class="nx">s</span><span class="p">[</span><span class="nx">e</span><span class="p">].</span><span class="nx">scale</span> <span class="o">+</span> <span class="s2">","</span> <span class="o">+</span> <span class="nx">s</span><span class="p">[</span><span class="nx">e</span><span class="p">].</span><span class="nx">scale</span> <span class="o">+</span> <span class="s2">") rotate(45deg);background:"</span> <span class="o">+</span> <span class="nx">s</span><span class="p">[</span><span class="nx">e</span><span class="p">].</span><span class="nx">color</span> <span class="o">+</span> <span class="s2">";z-index:99999"</span><span class="p">);</span>
+            <span class="nx">requestAnimationFrame</span><span class="p">(</span><span class="nx">r</span><span class="p">)</span>
+        <span class="p">}</span>
+        <span class="kd">function</span> <span class="nx">n</span><span class="p">()</span> <span class="p">{</span>
+            <span class="kd">var</span> <span class="nx">t</span> <span class="o">=</span> <span class="s2">"function"</span> <span class="o">==</span> <span class="k">typeof</span> <span class="nx">e</span><span class="p">.</span><span class="nx">onclick</span> <span class="o">&amp;&amp;</span> <span class="nx">e</span><span class="p">.</span><span class="nx">onclick</span><span class="p">;</span>
+            <span class="nx">e</span><span class="p">.</span><span class="nx">onclick</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+                <span class="nx">t</span> <span class="o">&amp;&amp;</span> <span class="nx">t</span><span class="p">(),</span>
+                <span class="nx">o</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="kd">function</span> <span class="nx">o</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+            <span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="nx">t</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s2">"div"</span><span class="p">);</span>
+            <span class="nx">a</span><span class="p">.</span><span class="nx">className</span> <span class="o">=</span> <span class="s2">"heart"</span><span class="p">,</span>
+            <span class="nx">s</span><span class="p">.</span><span class="nx">push</span><span class="p">({</span>
+                <span class="na">el</span><span class="p">:</span> <span class="nx">a</span><span class="p">,</span>
+                <span class="na">x</span><span class="p">:</span> <span class="nx">e</span><span class="p">.</span><span class="nx">clientX</span> <span class="o">-</span> <span class="mi">5</span><span class="p">,</span>
+                <span class="na">y</span><span class="p">:</span> <span class="nx">e</span><span class="p">.</span><span class="nx">clientY</span> <span class="o">-</span> <span class="mi">5</span><span class="p">,</span>
+                <span class="na">scale</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+                <span class="na">alpha</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+                <span class="na">color</span><span class="p">:</span> <span class="nx">c</span><span class="p">()</span>
+            <span class="p">}),</span>
+            <span class="nx">t</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span>
+        <span class="p">}</span>
+        <span class="kd">function</span> <span class="nx">i</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+            <span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="nx">t</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s2">"style"</span><span class="p">);</span>
+            <span class="nx">a</span><span class="p">.</span><span class="nx">type</span> <span class="o">=</span> <span class="s2">"text/css"</span><span class="p">;</span>
+            <span class="k">try</span> <span class="p">{</span>
+                <span class="nx">a</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">t</span><span class="p">.</span><span class="nx">createTextNode</span><span class="p">(</span><span class="nx">e</span><span class="p">))</span>
+            <span class="p">}</span> <span class="k">catch</span><span class="p">(</span><span class="nx">t</span><span class="p">)</span> <span class="p">{</span>
+                <span class="nx">a</span><span class="p">.</span><span class="nx">styleSheet</span><span class="p">.</span><span class="nx">cssText</span> <span class="o">=</span> <span class="nx">e</span>
+            <span class="p">}</span>
+            <span class="nx">t</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="s2">"head"</span><span class="p">)[</span><span class="mi">0</span><span class="p">].</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span>
+        <span class="p">}</span>
+        <span class="kd">function</span> <span class="nx">c</span><span class="p">()</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="s2">"rgb("</span> <span class="o">+</span> <span class="o">~~</span> <span class="p">(</span><span class="mi">255</span> <span class="o">*</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">())</span> <span class="o">+</span> <span class="s2">","</span> <span class="o">+</span> <span class="o">~~</span> <span class="p">(</span><span class="mi">255</span> <span class="o">*</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">())</span> <span class="o">+</span> <span class="s2">","</span> <span class="o">+</span> <span class="o">~~</span> <span class="p">(</span><span class="mi">255</span> <span class="o">*</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">())</span> <span class="o">+</span> <span class="s2">")"</span>
+        <span class="p">}</span>
+        <span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="p">[];</span>
+        <span class="nx">e</span><span class="p">.</span><span class="nx">requestAnimationFrame</span> <span class="o">=</span> <span class="nx">e</span><span class="p">.</span><span class="nx">requestAnimationFrame</span> <span class="o">||</span> <span class="nx">e</span><span class="p">.</span><span class="nx">webkitRequestAnimationFrame</span> <span class="o">||</span> <span class="nx">e</span><span class="p">.</span><span class="nx">mozRequestAnimationFrame</span> <span class="o">||</span> <span class="nx">e</span><span class="p">.</span><span class="nx">oRequestAnimationFrame</span> <span class="o">||</span> <span class="nx">e</span><span class="p">.</span><span class="nx">msRequestAnimationFrame</span> <span class="o">||</span>
+        <span class="kd">function</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nx">setTimeout</span><span class="p">(</span><span class="nx">e</span><span class="p">,</span> <span class="mi">1</span><span class="nx">e3</span> <span class="o">/</span> <span class="mi">60</span><span class="p">)</span>
+        <span class="p">},</span>
+        <span class="nx">i</span><span class="p">(</span><span class="s2">".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"</span><span class="p">),</span>
+        <span class="nx">n</span><span class="p">(),</span>
+        <span class="nx">r</span><span class="p">()</span>
+    <span class="p">}</span> <span class="p">(</span><span class="nb">window</span><span class="p">,</span> <span class="nb">document</span><span class="p">);</span>
+</code></pre></div></div>
+
+
+  <!-- 引入share模块 -->
+  
+  <div class="social-share-wrapper">
+    <div class="social-share"></div>
+  </div>
+
+
+<!-- share.js -->
+<script src="/assets/js/social-share.min.js"></script>
+<script>
+  socialShare('.social-share', {
+    sites: [
+      
+        'qq'
+        ,
+        
+      
+        'wechat'
+        ,
+        
+      
+        'weibo'
+        ,
+        
+      
+        'twitter'
+        ,
+        
+      
+        'facebook'
+        
+      
+    ],
+    wechatQrcodeTitle: "分享到微信朋友圈",
+    wechatQrcodeHelper: '期待在朋友圈见到这篇文章'
+  });
+</script>
+
+</div>
+
+<!-- 底部锚点 -->
+<a id="htmldown" name="htmldown"></a>
+<!-- 引入评论模块 -->
+
+
+
+    <section class="post-footer-item comment">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNDI2OS8xMDgwNg=="></div>
+    </section>
+
+    <!-- 来必力City版安装代码 -->
+    <script type="text/javascript">
+       (function(d, s) {
+           var j, e = d.getElementsByTagName(s)[0];
+
+           if (typeof LivereTower === 'function') { return; }
+
+           j = d.createElement(s);
+           j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+           j.async = true;
+
+           e.parentNode.insertBefore(j, e);
+       })(document, 'script');
+    </script>
+    <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+    <!-- City版安装代码已完成 -->
+
+
+
+
+
+<!-- 引入goto模块 -->
+<div class="bounceInRight animated go">
+  <a title="顶部切换页面" class="gototop" href="#htmlup" target="_self">
+    <div class="box" style="font-family:'ffad_matroregular';">
+        Top
+    </div>
+  </a>
+  <a title="底部有livere评论哦" class="gotobottom" href="#htmldown" target="_self">
+    <div class="box" style="font-family:'ffad_matroregular';">
+        Foot
+    </div>
+  </a>
+</div>
+
+<!-- 引入页面底部模块 -->
+<footer id="bottom">
+  <br>
+  <span>何文禄的个人博客 ©
+  
+  
+  2018
+  <br>
+  Powered by <a href="https://www.jekyll.com.cn/">Jekyll</a> | <a href="https://github.com/xukimseven/HardCandy-Jekyll">HardCandy-Jekyll</a></span>
+</footer>
+
+
+<!-- 引用wow.js的动画效果 -->
+<script src="/assets/js/wow.js"></script>
+<script>
+    var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        // offset: 600,
+        mobile: true,
+        live: true
+    });
+    wow.init();
+</script>
+<!-- 页面刷新回到顶部 -->
+<script>
+    window.onbeforeunload = function(){
+        //刷新后页面自动回到顶部
+        document.documentElement.scrollTop = 0;  //ie下
+        document.body.scrollTop = 0;  //非ie
+    }
+</script>
+<script src="/assets/js/main.js"></script>
+<script src='/assets/js/jquery.min.js'></script>
+<script type="text/javascript">
+    !function(e, t, a) {
+        function r() {
+            for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[e].y--, s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x + "px;top:" + s[e].y + "px;opacity:" + s[e].alpha + ";transform:scale(" + s[e].scale + "," + s[e].scale + ") rotate(45deg);background:" + s[e].color + ";z-index:99999");
+            requestAnimationFrame(r)
+        }
+        function n() {
+            var t = "function" == typeof e.onclick && e.onclick;
+            e.onclick = function(e) {
+                t && t(),
+                    o(e)
+            }
+        }
+        function o(e) {
+            var a = t.createElement("div");
+            a.className = "heart",
+                s.push({
+                    el: a,
+                    x: e.clientX - 5,
+                    y: e.clientY - 5,
+                    scale: 1,
+                    alpha: 1,
+                    color: c()
+                }),
+                t.body.appendChild(a)
+        }
+        function i(e) {
+            var a = t.createElement("style");
+            a.type = "text/css";
+            try {
+                a.appendChild(t.createTextNode(e))
+            } catch(t) {
+                a.styleSheet.cssText = e
+            }
+            t.getElementsByTagName("head")[0].appendChild(a)
+        }
+        function c() {
+            return "rgb(" + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + ")"
+        }
+        var s = [];
+        e.requestAnimationFrame = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame ||
+            function(e) {
+                setTimeout(e, 1e3 / 60)
+            },
+            i(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"),
+            n(),
+            r()
+    } (window, document);
+</script>
+</body>
+</html>
