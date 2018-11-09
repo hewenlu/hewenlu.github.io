@@ -3,7 +3,7 @@ layout: post
 title: '地铁趣事'
 date: 2018-10-27
 author: Jekyll
-color: rgb(255,210,32)
+color: '#80aba9'
 cover: 'http://47.95.121.201/uploads/jekyll/wener9.jpg'
 tags: mood
 ---

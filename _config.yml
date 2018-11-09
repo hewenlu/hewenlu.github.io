@@ -60,7 +60,9 @@ pygmentsTheme: 'manni'
 
 # 友情链接
 friends:
+  markdown: 'https://www.zybuluo.com/mdeditor'
   jekyll: 'https://www.jekyll.com.cn/'
+  关于鸡哥: 'http://xseven.me/'
 
 # 评论 最佳体验 在disqus、livere和Gitment之间三选一
 # disqus 评论
