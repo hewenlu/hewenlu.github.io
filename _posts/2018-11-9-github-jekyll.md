@@ -14,14 +14,14 @@ tags: git github jekyll markdown
 > 具体是怎么fork到自己的仓库，跟着这篇博客走[徐代龙的博客][2]
 
 我再简明一下步骤：
-一 ：安装Ruby
-二 ：安装RubyGems
-三：用RubyGems安装Jekyll
-四：cd到博客文件夹，开启服务器
-五：访问 http://localhost:4000/
-六：提交代码到远程GitHub上
+1. 安装Ruby
+2. 安装RubyGems
+3. 用RubyGems安装Jekyll
+4. cd到博客文件夹，开启服务器
+5. 访问 http://localhost:4000/
+6. 提交代码到远程GitHub上
 
-安装jekyll的目的就是可以在本地通过http://localhost:4000/访问自己的博客，实时更改，以便查看效果。即使不安装也可以，直接通过git，clone到本地，修改配置文件_config.yml改成自己的博客。具体配置信息修改参考[github][3]
+安装jekyll的目的就是可以在本地通过http://localhost:4000/访问自己的博客，实时更改，以便查看效果，再上传github或者网站。即使不安装也可以，直接通过git，clone到本地，修改配置文件_config.yml改成自己的博客。具体配置信息修改参考[github][3]下面的图文。
 
 ## 下面说一下怎么安装jekyll
 
@@ -31,7 +31,7 @@ tags: git github jekyll markdown
 主要环节有：安装Ruby，安装RubyGems，安装jekyll（我这里是windows系统）
 ### 1.安装ruby
 下载安装 https://rubyinstaller.org/downloads/
-在命令提示符中输入 
+在ruby命令提示符中输入 （ruby命令提示符工具找不到的话在window快捷搜索一下start Command Prompt with Ruby）
 ```
 ruby -v
 ```
@@ -42,7 +42,7 @@ ruby -v
 ### 2.安装RubyGems
 
 官网下载 https://rubygems.org/pages/download  最新版本的zip文件
-用命令提示符cd 到安装目录
+用ruby命令提示符cd 到安装目录
 执行安装 
 ```
 ruby setup.rb
@@ -51,7 +51,7 @@ ruby setup.rb
 
 
 ### 3.用RubyGems安装Jekyll
-还是用cmd执行安装
+用ruby命令提示符执行安装
 ```
 gem install jekyll
 ```
@@ -79,8 +79,8 @@ jekyll serve
 就看到新建的博客了
 
 ----------
-同样的道理在你clone的博客下面安装jekyll
-通过git或者[githubDesktop][4]将你github上的博客项目clone到本地
+同样的道理在你clone的博客下面安装jekyll，
+通过 [git][6] 或者 [githubDesktop][4] 将你github上的博客项目clone到本地，
 用ruby的命令提示符cd 到你的博客文件夹下
 安装jekyll
 ```
@@ -92,7 +92,7 @@ jekyll serve --watch
 或 jekyll serve
 或 bundle exec jekyll serve  这个肯定可以开启，我这里前面那样会报错
 ```
-访问 http://localhost:4000/ 就看到你的博客了
+访问 http://localhost:4000/ 就看到你的博客了，
 再通过编辑器改一些配置信息成为你自己的博客。
 最后上传到github
 简单记录一下git常用命令
@@ -132,3 +132,4 @@ git push origin master             非首次次可以直接这样
   [3]: https://github.com/hewenlu/hewenlu.github.io
   [4]: https://desktop.github.com/
   [5]: http://xseven.me/
+  [6]: https://git-scm.com/

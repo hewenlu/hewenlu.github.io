@@ -34,7 +34,7 @@
 <!--布局样式-->
 <link rel="stylesheet" href="/assets/css/music/style.css">
 
-<title>博客搭建心得</title>
+<title>鼠标点击文字效果</title>
 <!-- 百度统计 -->
 
 <script>
@@ -51,7 +51,7 @@ var _hmt = _hmt || [];
 
 
 <!-- Android Lolipop Theme Color -->
-<meta name="theme-color" content=" #a69abd ">
+<meta name="theme-color" content=" #FF8F2A ">
 </head>
 <body>
 
@@ -59,7 +59,7 @@ var _hmt = _hmt || [];
 <a id="htmlup" name="htmlup"></a>
 <!-- 引入博文顶部选项 -->
 
-<header id="post-header" style="background-color:#a69abd;">
+<header id="post-header" style="background-color:#FF8F2A;">
   <div class="top-center">
       <div class="logo">
           <a href="/" title="my awesome webtitle" style="color: white;">Temperature</a>
@@ -112,7 +112,7 @@ var _hmt = _hmt || [];
 <!-- 引入博文顶部样式 -->
 <!-- 版本一 垃圾 -->
 <!-- <div class="wow fadeIn top" data-wow-duration="3.5s" >
-    <span class="wow fadeInUp" data-wow-delay="0.2s">博客搭建心得</span>
+    <span class="wow fadeInUp" data-wow-delay="0.2s">鼠标点击文字效果</span>
     <span class="wow fadeInUp" data-wow-delay="0.4s"></span>
     <span class="wow fadeInUp" data-wow-delay="0.4s"></span>
     <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;temperature</span>
@@ -120,34 +120,34 @@ var _hmt = _hmt || [];
 
 <!-- 版本二 可切换页面 -->
 
-<div class="post-top" style="background-color:#a69abd;">
+<div class="post-top" style="background-color:#FF8F2A;">
   <!-- 页面宽度大于800px -->
   <div class="left-area">
     
-      <a href="/2018/11/09/wendu-code.html" class="btn bounceInLeft animated" onmouseover="showLeft();this.style.color='#a69abd';" onmouseout="goneLeft();this.style.color='rgba(0,0,0,.2)';"><</a>
-      <div id="left-tab" style="display:none;"><span class="left-san"></span><span class="left-main" style="color:#a69abd;"><sapn class="main">鼠标点击爱心</sapn></span></div>
+      <a href="javascript:;" class="btn bounceInLeft animated" onmouseover="showLeft();this.style.color='#FF8F2A';" onmouseout="goneLeft();this.style.color='rgba(0,0,0,.2)';"><</a>
+      <div id="left-tab" style="display:none;"><span class="left-san"></span><span class="left-main" style="color:#FF8F2A;"><sapn class="main">没有上一页咯</sapn></span></div>
     
   </div>
   <div class="post-titlearea">
-    <span class="wow fadeInUp" data-wow-delay="0.2s">博客搭建心得</span>
+    <span class="wow fadeInUp" data-wow-delay="0.2s">鼠标点击文字效果</span>
     <!-- <span class="wow fadeInUp" data-wow-delay="0.4s"></span> -->
     <!-- <span class="wow fadeInUp" data-wow-delay="0.4s"></span> -->
     <!-- <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;temperature</span> -->
   </div>
   <div class="right-area">
     
-      <a href="/2018/10/27/mood-2924.html" class="btn bounceInRight self-animated" onmouseover="showRight();this.style.color='#a69abd';" onmouseout="goneRight();this.style.color='rgba(0,0,0,.2)';">></a>
-      <div id="right-tab" style="display:none;"><span class="right-san"></span><span class="right-main" style="color:#a69abd;"><sapn class="main">2924</sapn></span></div>
+      <a href="/2018/11/10/wendu-code-mouse.html" class="btn bounceInRight self-animated" onmouseover="showRight();this.style.color='#FF8F2A';" onmouseout="goneRight();this.style.color='rgba(0,0,0,.2)';">></a>
+      <div id="right-tab" style="display:none;"><span class="right-san"></span><span class="right-main" style="color:#FF8F2A;"><sapn class="main">鼠标点击爆炸效果</sapn></span></div>
     
   </div>
 
   <!-- 页面宽度小于800px -->
   <div class="post-changearea">
     
-      <a href="/2018/11/09/wendu-code.html" class="leftchange" style="border-right: 1px solid #a69abd;border-bottom: 2px solid #a69abd;"><span>上一篇<br><br>鼠标点击爱心</span></a>
+      <a href="javascript:;" class="leftchange" style="border-right: 1px solid #FF8F2A;border-bottom: 2px solid #FF8F2A;"><span><br>没有上一篇咯</span></a>
     
     
-      <a href="/2018/10/27/mood-2924.html" class="rightchange" style="border-left: 1px solid #a69abd;border-bottom: 2px solid #a69abd;"><span>下一篇<br><br>2924</span></a>
+      <a href="/2018/11/10/wendu-code-mouse.html" class="rightchange" style="border-left: 1px solid #FF8F2A;border-bottom: 2px solid #FF8F2A;"><span>下一篇<br><br>鼠标点击爆炸效果</span></a>
     
   </div>
 </div>
@@ -158,115 +158,48 @@ var _hmt = _hmt || [];
   
 
   <!-- 文章内容 -->
-  <h1 id="通过安装jekyll在github部署自己的博客">通过安装jekyll在github部署自己的博客</h1>
+  <h3 id="文字效果也存一下吧虽然不太好看但是252特别不定哪天心血来潮换上只需要引入jq库js加入以下代码或者新建js文件引入鼠标点击文字效果就出现了">文字效果也存一下吧，虽然不太好看，但是252特别，不定哪天心血来潮换上。只需要引入jq库，js加入以下代码或者新建js文件引入,鼠标点击文字效果就出现了！</h3>
 
-<p>首先到我的<a href="https://github.com/hewenlu/hewenlu.github.io">github</a>下查看教程，fork到你的仓库，找到settings更改名称为你的github用户名.github.io</p>
-<blockquote>
-  <p>具体是怎么fork到自己的仓库，跟着这篇博客走<a href="https://blog.csdn.net/xudailong_blog/article/details/78762262">徐代龙的博客</a></p>
-</blockquote>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code> 
+ <span class="kd">var</span> <span class="nx">getRandomColor</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="s1">'#'</span> <span class="o">+</span>
+            <span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">color</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">return</span><span class="p">(</span><span class="nx">color</span> <span class="o">+=</span> <span class="s1">'0123456789abcdef'</span> <span class="p">[</span><span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">*</span> <span class="mi">16</span><span class="p">)])</span> <span class="o">&amp;&amp;</span>
+                    <span class="p">(</span><span class="nx">color</span><span class="p">.</span><span class="nx">length</span> <span class="o">==</span> <span class="mi">6</span><span class="p">)</span> <span class="p">?</span> <span class="nx">color</span> <span class="p">:</span> <span class="kr">arguments</span><span class="p">.</span><span class="nx">callee</span><span class="p">(</span><span class="nx">color</span><span class="p">);</span>
+            <span class="p">})(</span><span class="s1">''</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="kd">var</span> <span class="nx">a_idx</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="nx">jQuery</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">$</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">$</span><span class="p">(</span><span class="s2">"body"</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
 
-<p>我再简明一下步骤：</p>
-<ol>
-  <li>安装Ruby</li>
-  <li>安装RubyGems</li>
-  <li>用RubyGems安装Jekyll</li>
-  <li>cd到博客文件夹，开启服务器</li>
-  <li>访问 http://localhost:4000/</li>
-  <li>提交代码到远程GitHub上</li>
-</ol>
+            <span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Array</span><span class="p">(</span><span class="s2">"252"</span><span class="p">,</span> <span class="s2">"爱生活"</span><span class="p">);</span>
+            <span class="kd">var</span> <span class="nx">$i</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s2">"&lt;span/&gt;"</span><span class="p">).</span><span class="nx">text</span><span class="p">(</span><span class="nx">a</span><span class="p">[</span><span class="nx">a_idx</span><span class="p">]);</span>
+            <span class="nx">a_idx</span> <span class="o">=</span> <span class="p">(</span><span class="nx">a_idx</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">%</span> <span class="nx">a</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
+            <span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="nx">e</span><span class="p">.</span><span class="nx">pageX</span><span class="p">,</span>
+                <span class="nx">y</span> <span class="o">=</span> <span class="nx">e</span><span class="p">.</span><span class="nx">pageY</span><span class="p">;</span>
 
-<p>安装jekyll的目的就是可以在本地通过http://localhost:4000/访问自己的博客，实时更改，以便查看效果，再上传github或者网站。即使不安装也可以，直接通过git，clone到本地，修改配置文件_config.yml改成自己的博客。具体配置信息修改参考<a href="https://github.com/hewenlu/hewenlu.github.io">github</a>下面的图文。</p>
-
-<h2 id="下面说一下怎么安装jekyll">下面说一下怎么安装jekyll</h2>
-
-<blockquote>
-  <p>参考这篇博客 https://643435675.github.io/2015/02/15/create-my-blog-with-jekyll/</p>
-</blockquote>
-
-<p>主要环节有：安装Ruby，安装RubyGems，安装jekyll（我这里是windows系统）</p>
-<h3 id="1安装ruby">1.安装ruby</h3>
-<p>下载安装 https://rubyinstaller.org/downloads/
-在ruby命令提示符中输入 （ruby命令提示符工具找不到的话在window快捷搜索一下start Command Prompt with Ruby）</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby -v
-</code></pre></div></div>
-<p>得到版本号表示安装成功</p>
-
-<h3 id="2安装rubygems">2.安装RubyGems</h3>
-
-<p>官网下载 https://rubygems.org/pages/download  最新版本的zip文件
-用ruby命令提示符cd 到安装目录
-执行安装</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby setup.rb
-</code></pre></div></div>
-
-<h3 id="3用rubygems安装jekyll">3.用RubyGems安装Jekyll</h3>
-<p>用ruby命令提示符执行安装</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install jekyll
-</code></pre></div></div>
-<p>安装完成会出现很多代码表示安装成功</p>
-
-<h2 id="到此jekyll就安装成功了">到此jekyll就安装成功了！</h2>
-
-<p>可以测试一下，如在D盘新建一个文件夹
-执行ruby的命令提示符工具cd到这个文件夹下</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll new name （随便起一个项目新名字）
-</code></pre></div></div>
-<p>如果成功的话文件夹下面会出现很多的文件
-接着还是用ruby命令提示符工具开启服务器</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd 到你的博客项目文件夹下
-jekyll serve --watch
-</code></pre></div></div>
-<p>watch为了检测文件夹内的变化，即修改后不需要重新启动jekyll
-第二次就可以直接启动</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll serve
-</code></pre></div></div>
-<p>访问 http://localhost:4000/
-就看到新建的博客了</p>
-
-<hr />
-<p>同样的道理在你clone的博客下面安装jekyll，
-通过 <a href="https://git-scm.com/">git</a> 或者 <a href="https://desktop.github.com/">githubDesktop</a> 将你github上的博客项目clone到本地，
-用ruby的命令提示符cd 到你的博客文件夹下
-安装jekyll</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install jekyll
-</code></pre></div></div>
-<p>然后再开启服务器</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll serve --watch
-或 jekyll serve
-或 bundle exec jekyll serve  这个肯定可以开启，我这里前面那样会报错
-</code></pre></div></div>
-<p>访问 http://localhost:4000/ 就看到你的博客了，
-再通过编辑器改一些配置信息成为你自己的博客。
-最后上传到github
-简单记录一下git常用命令</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote add origin 项目链接   关联远程仓库
-
-git config --global '你的名字'
-
-git config --global '你的邮箱'
-
-ssh -T git@github.com       查看当前是否连接成功
-
-git clone 项目链接       克隆到本地
-
-git status               查看当前状态
-
-git init               创建仓库
-
-git add .              添加文件到仓库
-
-git commit -m "提交信息"                提交文件到仓库必须填写提交信息
-
-git push -u origin master           首次上传到github远程仓裤
-
-git push origin master             非首次次可以直接这样
+            <span class="nx">$i</span><span class="p">.</span><span class="nx">css</span><span class="p">({</span>
+                <span class="s2">"z-index"</span><span class="p">:</span> <span class="mi">999</span><span class="p">,</span>
+                <span class="s2">"top"</span><span class="p">:</span> <span class="nx">y</span> <span class="o">-</span> <span class="mi">20</span><span class="p">,</span>
+                <span class="s2">"left"</span><span class="p">:</span> <span class="nx">x</span><span class="p">,</span>
+                <span class="s2">"position"</span><span class="p">:</span> <span class="s2">"absolute"</span><span class="p">,</span>
+                <span class="s2">"font-weight"</span><span class="p">:</span> <span class="s2">"bold"</span><span class="p">,</span>
+                <span class="s2">"color"</span><span class="p">:</span> <span class="nx">getRandomColor</span><span class="p">,</span>
+                <span class="s2">"font-family"</span><span class="p">:</span> <span class="s2">"Pacifico"</span>
+            <span class="p">});</span>
+            <span class="nx">$</span><span class="p">(</span><span class="s2">"body"</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="nx">$i</span><span class="p">);</span>
+            <span class="nx">$i</span><span class="p">.</span><span class="nx">animate</span><span class="p">({</span>
+                    <span class="s2">"top"</span><span class="p">:</span> <span class="nx">y</span> <span class="o">-</span> <span class="mi">180</span><span class="p">,</span>
+                    <span class="s2">"opacity"</span><span class="p">:</span> <span class="mi">0</span>
+                <span class="p">},</span>
+                <span class="mi">1500</span><span class="p">,</span>
+                <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+                    <span class="nx">$i</span><span class="p">.</span><span class="nx">remove</span><span class="p">();</span>
+                <span class="p">});</span>
+        <span class="p">});</span>
+    <span class="p">});</span>
 
 </code></pre></div></div>
-<p>书写博客就是用markdown在线编写，写好导出一个md文件
-文件名命名2018-11-9-文件名.md  后面还可以继续-</p>
-
-<hr />
-<p>最后感谢博客主题提供者<a href="http://xseven.me/">徐金琦</a>，应该叫鸡哥/斜眼笑/</p>
 
 
   <!-- 引入share模块 -->

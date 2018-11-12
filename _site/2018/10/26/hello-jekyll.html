@@ -255,6 +255,7 @@ var _hmt = _hmt || [];
   </a>
 </div>
 
+
 <!-- 引入页面底部模块 -->
 <footer id="bottom">
   <br>
@@ -286,6 +287,13 @@ var _hmt = _hmt || [];
         document.documentElement.scrollTop = 0;  //ie下
         document.body.scrollTop = 0;  //非ie
     }
+
+</script>
+<script>
+    $("#htmlup").click(function(){
+        $('body,html').animate({scrollTop:0},1000);
+        return false;
+    });
 </script>
 <script src="/assets/js/main.js"></script>
 <script src='/assets/js/jquery.min.js'></script>
