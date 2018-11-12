@@ -4,7 +4,7 @@ title: '鼠标点击爆炸效果'
 date: 2018-11-10
 author: temperature
 color: '#09BFEA'
-cover: '/assets/posts/mouse.png'
+cover: 'https://s1.ax1x.com/2018/11/12/iLJ7GQ.png'
 tags: javascript jquery html css 
 ---
 

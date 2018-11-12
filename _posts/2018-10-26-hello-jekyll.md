@@ -4,7 +4,7 @@ title: 'Hello Jekyll'
 date: 2018-10-26
 author: temperature
 color: '#84b9cb'
-cover: '/assets/posts/test.png'
+cover: 'https://s1.ax1x.com/2018/11/12/iLJbxs.png'
 tags: jekyll 
 ---
 

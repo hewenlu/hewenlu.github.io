@@ -173,7 +173,7 @@ var _hmt = _hmt || [];
   <a href="/2018/11/10/wendu-code-mouse252.html">
       <li class="fadeInUp animated">
           
-          <div class="post-cover" style="background:url(/assets/posts/mouse2.png);background-size:cover;background-position:center;"></div>
+          <div class="post-cover" style="background:url(https://s1.ax1x.com/2018/11/12/iLJIIS.png);background-size:cover;background-position:center;"></div>
           
           <section class="post-preview">
               <h2 class="post-title">鼠标点击文字效果</h2>
@@ -202,7 +202,7 @@ var _hmt = _hmt || [];
   <a href="/2018/11/10/wendu-code-mouse.html">
       <li class="fadeInUp animated">
           
-          <div class="post-cover" style="background:url(/assets/posts/mouse.png);background-size:cover;background-position:center;"></div>
+          <div class="post-cover" style="background:url(https://s1.ax1x.com/2018/11/12/iLJ7GQ.png);background-size:cover;background-position:center;"></div>
           
           <section class="post-preview">
               <h2 class="post-title">鼠标点击爆炸效果</h2>
@@ -231,10 +231,10 @@ var _hmt = _hmt || [];
   <a href="/2018/11/09/wendu-code.html">
       <li class="fadeInUp animated">
           
-          <div class="post-cover" style="background:url(/assets/posts/aixin.png);background-size:cover;background-position:center;"></div>
+          <div class="post-cover" style="background:url(https://s1.ax1x.com/2018/11/12/iLJH2j.png);background-size:cover;background-position:center;"></div>
           
           <section class="post-preview">
-              <h2 class="post-title">鼠标点击爱心</h2>
+              <h2 class="post-title">鼠标点击爱心效果</h2>
               
               
               <p class="post-excerpt">只需要引入jq库，在&lt;/body&gt;加入以下代码,爱心效果就出现了！</p>
@@ -258,7 +258,7 @@ var _hmt = _hmt || [];
   <a href="/2018/11/09/github-jekyll.html">
       <li class="fadeInUp animated">
           
-          <div class="post-cover" style="background:url(/assets/posts/git.png);background-size:cover;background-position:center;"></div>
+          <div class="post-cover" style="background:url(https://s1.ax1x.com/2018/11/12/iLJTPg.png);background-size:cover;background-position:center;"></div>
           
           <section class="post-preview">
               <h2 class="post-title">博客搭建心得</h2>
@@ -312,6 +312,7 @@ var _hmt = _hmt || [];
   2018
   <br>
   Powered by <a href="https://www.jekyll.com.cn/">Jekyll</a> | <a href="https://github.com/xukimseven/HardCandy-Jekyll">HardCandy-Jekyll</a></span>
+  &nbsp;<span id="span_dt_dt"></span>
 </footer>
 
 
@@ -338,6 +339,7 @@ var _hmt = _hmt || [];
 </script>
 <script src='/assets/js/jquery.min.js'></script>
 <script  src="/assets/js/index.js"></script>
+<!--鼠标点击爱心效果-->
 <script type="text/javascript">
     !function(e, t, a) {
         function r() {
@@ -386,6 +388,26 @@ var _hmt = _hmt || [];
             n(),
             r()
     } (window, document);
+
+    //网站运行时间
+    function show_date_time() {
+        window.setTimeout("show_date_time()", 1000);
+        BirthDay = new Date("10/26/2018 2:52:00");
+        today = new Date();
+        timeold = (today.getTime() - BirthDay.getTime());
+        sectimeold = timeold / 1000;
+        secondsold = Math.floor(sectimeold);
+        msPerDay = 24 * 60 * 60 * 1000;
+        e_daysold = timeold / msPerDay;
+        daysold = Math.floor(e_daysold);
+        e_hrsold = (e_daysold - daysold) * 24;
+        hrsold = Math.floor(e_hrsold);
+        e_minsold = (e_hrsold - hrsold) * 60;
+        minsold = Math.floor((e_hrsold - hrsold) * 60);
+        seconds = Math.floor((e_minsold - minsold) * 60);
+        span_dt_dt.innerHTML = "此破站已苟活:" + daysold + "天" + hrsold + "小时" + minsold + "分" + seconds + "秒";
+    }
+    show_date_time();
 </script>
 </body>
 </html>

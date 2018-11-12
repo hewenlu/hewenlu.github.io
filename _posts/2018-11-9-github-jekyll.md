@@ -4,7 +4,7 @@ title: '博客搭建心得'
 date: 2018-11-9 
 author: temperature 
 color: '#a69abd'
-cover: '/assets/posts/git.png'
+cover: 'https://s1.ax1x.com/2018/11/12/iLJTPg.png'
 tags: git github jekyll markdown
 ---
 

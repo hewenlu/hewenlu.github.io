@@ -4,7 +4,7 @@ title: '鼠标点击文字效果'
 date: 2018-11-10
 author: temperature
 color: '#FF8F2A'
-cover: '/assets/posts/mouse2.png'
+cover: 'https://s1.ax1x.com/2018/11/12/iLJIIS.png'
 tags: javascript jquery html css 
 ---
 

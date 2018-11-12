@@ -219,7 +219,7 @@ var _hmt = _hmt || [];
                 <span class="lefttime-san"></span>
                 <span class="lefttime-main">
                   <sapn class="timemain">
-                    鼠标点击爱心
+                    鼠标点击爱心效果
                   </sapn>
                 </span>
               </a>
@@ -317,7 +317,7 @@ var _hmt = _hmt || [];
           
             <div class="timeANDname">
               <a href="/2018/11/09/wendu-code.html"><span class="timeANDname-san"></span><span class="timeANDname-main"><sapn class="timeANDnamemain">
-                  鼠标点击爱心
+                  鼠标点击爱心效果
                   <time class="timeline-data" datetime="18-11-09">2018-11-09</time>
               </sapn></span></a>
             </div>
@@ -361,6 +361,7 @@ var _hmt = _hmt || [];
   2018
   <br>
   Powered by <a href="https://www.jekyll.com.cn/">Jekyll</a> | <a href="https://github.com/xukimseven/HardCandy-Jekyll">HardCandy-Jekyll</a></span>
+  &nbsp;<span id="span_dt_dt"></span>
 </footer>
 
 
@@ -389,6 +390,7 @@ var _hmt = _hmt || [];
 </script>
 <script src='/assets/js/jquery.min.js'></script>
 <script  src="/assets/js/index.js"></script>
+<!--鼠标点击爱心效果-->
 <script type="text/javascript">
     !function(e, t, a) {
         function r() {
@@ -437,6 +439,26 @@ var _hmt = _hmt || [];
             n(),
             r()
     } (window, document);
+
+    //网站运行时间
+    function show_date_time() {
+        window.setTimeout("show_date_time()", 1000);
+        BirthDay = new Date("10/26/2018 2:52:00");
+        today = new Date();
+        timeold = (today.getTime() - BirthDay.getTime());
+        sectimeold = timeold / 1000;
+        secondsold = Math.floor(sectimeold);
+        msPerDay = 24 * 60 * 60 * 1000;
+        e_daysold = timeold / msPerDay;
+        daysold = Math.floor(e_daysold);
+        e_hrsold = (e_daysold - daysold) * 24;
+        hrsold = Math.floor(e_hrsold);
+        e_minsold = (e_hrsold - hrsold) * 60;
+        minsold = Math.floor((e_hrsold - hrsold) * 60);
+        seconds = Math.floor((e_minsold - minsold) * 60);
+        span_dt_dt.innerHTML = "此破站已苟活:" + daysold + "天" + hrsold + "小时" + minsold + "分" + seconds + "秒";
+    }
+    show_date_time();
 </script>
 </body>
 </html>

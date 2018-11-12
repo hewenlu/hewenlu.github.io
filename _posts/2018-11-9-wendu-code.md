@@ -1,10 +1,10 @@
 ---
 layout: post
-title: '鼠标点击爱心'
+title: '鼠标点击爱心效果'
 date: 2018-11-9
 author: temperature
 color: '#c85179'
-cover: '/assets/posts/aixin.png'
+cover: 'https://s1.ax1x.com/2018/11/12/iLJH2j.png'
 tags: javascript jquery css 
 ---
 
