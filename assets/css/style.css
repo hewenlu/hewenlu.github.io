@@ -89,6 +89,9 @@ a{
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: none;
+    z-index: 99999;
+    position: fixed;
+    top: 60px;
 }
 #boot-area a{
   color: #555;
