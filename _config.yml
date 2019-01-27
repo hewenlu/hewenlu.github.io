@@ -27,7 +27,7 @@ portraits: 'https://s1.ax1x.com/2018/11/12/iLY3Lt.jpg' # your portraits image fi
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
   mail: 'mailto:abc@gmail.com'
-  weixin: 'https://hewenlu.top/blog_images/wx.png' # 你的微信二维码存放的地址
+  weixin: 'https://hewenlu.top/blog_images/wx.jpg' # 你的微信二维码存放的地址
   qq: 'https://hewenlu.top/blog_images/qq.jpg' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
   github: 'https://github.com/hewenlu'
   Codepen: ''
