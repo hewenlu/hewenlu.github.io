@@ -20,24 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53dfffed-9087-4e19-a863-dd612f62cfba" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2020-12-11-git.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/me.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-11-2-mood-2924.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/js/social-share.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/social-share.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/js/wow.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/wow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/js/wow.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/wow.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/social-share.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/social-share.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/wow.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/wow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/wow.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/wow.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/music/bei.ncm" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/me.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-27-Wendu-mood.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-11-9-wendu-code.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-9-wendu-code.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +45,6 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="20" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="820" />
-  </component>
   <component name="ProjectId" id="1l3HcDxsaaenIGcrpZxeUlmgraZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -83,6 +62,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -124,7 +104,8 @@
       <workItem from="1542098101906" duration="2876000" />
       <workItem from="1542261769899" duration="994000" />
       <workItem from="1606818945733" duration="1952000" />
-      <workItem from="1607653829202" duration="2913000" />
+      <workItem from="1607653829202" duration="4162000" />
+      <workItem from="1608102795329" duration="326000" />
     </task>
     <servers />
   </component>
@@ -154,5 +135,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="707" y="360" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607658826638">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="707" y="360" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1057@0.23.1920.1057" timestamp="1607658826638" />
   </component>
 </project>
