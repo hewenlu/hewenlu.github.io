@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53dfffed-9087-4e19-a863-dd612f62cfba" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/wx.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-10-27-Wendu-mood.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-11-9-wendu-code.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-9-wendu-code.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,14 +67,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_posts" />
-      <recent name="$PROJECT_DIR$/assets/music" />
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="C:\Users\saiqi\Documents\GitHub\hewenlu.github.io\_posts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/music" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="$PROJECT_DIR$/assets/music" />
+      <recent name="C:\Users\saiqi\Documents\GitHub\hewenlu.github.io\_posts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -105,7 +105,7 @@
       <workItem from="1542261769899" duration="994000" />
       <workItem from="1606818945733" duration="1952000" />
       <workItem from="1607653829202" duration="4162000" />
-      <workItem from="1608102795329" duration="326000" />
+      <workItem from="1608102795329" duration="2135000" />
     </task>
     <servers />
   </component>

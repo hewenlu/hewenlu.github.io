@@ -1,6 +1,6 @@
 # Site settings 配置站点
-title: '何文禄的个人博客'
-description: '何文禄的个人博客'
+title: '何文禄&acute;s Blog'
+description: '用于记录学习、生活的一些小零碎～'
 keywords: 'php javascript html css'
 url: 'https://hewenlu.github.io' # your host
 
@@ -10,7 +10,7 @@ nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
   标签: '/tags.html'
   时间线: '/timeline.html'
   关于博主: '/about.html'
-  个人简历: 'http://jl.hewenlu.top'
+  个人简历: 'https://www.zhipin.com/web/geek/resume?ka=header-resume'
   友情链接: '/friendLink.html'
 
 # 博主
@@ -27,8 +27,8 @@ portraits: 'https://s1.ax1x.com/2018/11/12/iLY3Lt.jpg' # your portraits image fi
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
   mail: 'mailto:abc@gmail.com'
-  weixin: 'https://hewenlu.top/blog_images/wx.jpg' # 你的微信二维码存放的地址
-  qq: 'https://hewenlu.top/blog_images/qq.jpg' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
+  weixin: '/assets/wx.jpg' # 你的微信二维码存放的地址
+  qq: '/assets/qq.jpg' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
   github: 'https://github.com/hewenlu'
   Codepen: ''
   weibo: 'https://weibo.com/5970367576'
