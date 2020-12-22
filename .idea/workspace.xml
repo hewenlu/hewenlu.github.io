@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53dfffed-9087-4e19-a863-dd612f62cfba" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/wx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-12-16-个人经历.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,10 @@
       <workItem from="1542261769899" duration="994000" />
       <workItem from="1606818945733" duration="1952000" />
       <workItem from="1607653829202" duration="4162000" />
-      <workItem from="1608102795329" duration="2135000" />
+      <workItem from="1608102795329" duration="7516000" />
+      <workItem from="1608195688867" duration="4134000" />
+      <workItem from="1608280372429" duration="223000" />
+      <workItem from="1608619024369" duration="496000" />
     </task>
     <servers />
   </component>
